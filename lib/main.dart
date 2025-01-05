@@ -49,7 +49,8 @@ class MyApp extends StatelessWidget {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    final snackBar =  SnackBar(content: Text('Button pressed!'),
+                    final snackBar = SnackBar(
+                      content: Text('Button pressed!'),
                     );
                     ScaffoldMessenger.of(context).showSnackBar(snackBar);
                   },
@@ -73,4 +74,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-       
